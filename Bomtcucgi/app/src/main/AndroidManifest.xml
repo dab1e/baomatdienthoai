@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dab1e.bomtcucgi">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.NEW_OUTGOING_CALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_call"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_call"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BảoMậtCuộcGọi">
+        <activity android:name=".view.HomeScreenActivity">
+
+        </activity>
+
+        <service android:name=".service.PhoneCallService" />
+
+        <activity android:name="com.dab1e.bomtcucgi.view.homeactivity.HomeActivity" >
+
+        </activity>
+        <activity android:name=".view.screenlock.ScreenLockActivity" />
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

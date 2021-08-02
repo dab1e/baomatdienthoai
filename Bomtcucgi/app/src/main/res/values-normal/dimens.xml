@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--    Activity ScreenLock-->
+    <dimen name="size_oval_keynumber" tools:ignore="MissingDefaultResource">80dp</dimen>
+    <dimen name="keyboard_distance" tools:ignore="MissingDefaultResource">20dp</dimen>
+    <dimen name="textsize_keyboard_numberline1" tools:ignore="MissingDefaultResource">34sp</dimen>
+    <dimen name="textsize_keyboard_numberline2" tools:ignore="MissingDefaultResource">14sp</dimen>
+    <dimen name="oval_inputnumber" tools:ignore="MissingDefaultResource">25dp</dimen>
+<!-- Fragment Main in  Activity Home-->
+    <dimen name="size_category_title" tools:ignore="MissingDefaultResource">20sp</dimen>
+    <dimen name="size_" tools:ignore="MissingDefaultResource">20sp</dimen>
+    <dimen name="size_subcategory_title_line1" tools:ignore="MissingDefaultResource">18sp</dimen>
+    <dimen name="size_subcategory_title_line2" tools:ignore="MissingDefaultResource">16sp</dimen>
+</resources>
